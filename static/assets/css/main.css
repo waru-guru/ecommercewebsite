@@ -17,10 +17,12 @@
   --font-secondary: "Inter", sans-serif;
 }
 
+
+
 /* Colors */
 :root {
   --color-default: #212529;
-  --color-primary: #ce1212;
+  --color-primary: rgba(128, 0, 0, 0.89);
   --color-secondary: #37373f;
 }
 
@@ -47,7 +49,9 @@ a:hover {
   text-decoration: none;
 }
 
-h1,
+.store-name{
+  font-family: 'Tilt Prism', cursive;
+}
 h2,
 h3,
 h4,
@@ -708,7 +712,7 @@ section {
 --------------------------------------------------------------*/
 .why-us .why-box {
   padding: 30px;
-  background: var(--color-primary);
+  background:var(--color-primary);
   color: #fff;
 }
 
@@ -742,7 +746,7 @@ section {
 
 .why-us .icon-box {
   text-align: center;
-  background: #fff;
+  background: rgba(192, 188, 188, 0.93);
   padding: 40px 30px;
   width: 100%;
   height: 100%;
@@ -846,11 +850,11 @@ section {
 
 .menu .nav-link i {
   padding-right: 15px;
-  font-size: 48px;
+  font-size: 50px;
 }
 
 .menu .nav-link h4 {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 400;
   margin: 0;
   font-family: var(--font-secondary);
